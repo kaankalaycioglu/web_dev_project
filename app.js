@@ -18,7 +18,7 @@ var commentRoutes = require("./routes/comments"),
     indexRoutes = require("./routes/index");
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://dedebeyi:Kalaycio21912@yelpcamp.znnve.mongodb.net/<dbname>?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://dedebeyi:<password>@yelpcamp.znnve.mongodb.net/<dbname>?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
